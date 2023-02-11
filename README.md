@@ -10,6 +10,8 @@ The assignment of partition to thread is random and changes with every execution
 
 ### With `RangePartitioner` from SO question
 
+see [RangePartitioner.java](src/main/java/demo/RangePartitioner.java)
+
 ```
 Hilo : 1
 Index Inicial : 1
@@ -31,6 +33,8 @@ SimpleAsyncTaskExecutor-3 writing items = foo6, foo7, foo8, foo9, foo10, foo11, 
 ```
 
 ### With `FixedRangePartitioner`
+
+see [FixedRangePartitioner.java](src/main/java/demo/FixedRangePartitioner.java)
 
 ```
 Hilo : 1
